@@ -5,9 +5,9 @@ export const Navbar = ({setCategory}) => {
       data-bs-theme="dark"
     >
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <span className="navbar-brand">
           <span className="badge bg-secondary fs-5">NewsApp</span>
-        </a>
+        </span>
         <button
           className="navbar-toggler"
           type="button"
@@ -22,45 +22,28 @@ export const Navbar = ({setCategory}) => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#" onClick={()=>setCategory("general")}>
-                Home
-              </a>
+              <button className="nav-link btn btn-link active" onClick={() => setCategory("general")}>Home</button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("business")}>
-                business
-              </a>
+              <button className="nav-link btn btn-link" onClick={() => setCategory("business")}>business</button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("entertainment")}>
-                entertainment
-              </a>
+              <button className="nav-link btn btn-link" onClick={() => setCategory("entertainment")}>entertainment</button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("general")}>
-                general
-              </a>
+              <button className="nav-link btn btn-link" onClick={() => setCategory("general")}>general</button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("health")}>
-                health
-              </a>
+              <button className="nav-link btn btn-link" onClick={() => setCategory("health")}>health</button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("science")}>
-                science
-              </a>
+              <button className="nav-link btn btn-link" onClick={() => setCategory("science")}>science</button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("sports")}>
-
-                sports
-              </a>
+              <button className="nav-link btn btn-link" onClick={() => setCategory("sports")}>sports</button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("technology")}>
-                technology
-              </a>
+              <button className="nav-link btn btn-link" onClick={() => setCategory("technology")}>technology</button>
             </li>
           </ul>
         </div>
