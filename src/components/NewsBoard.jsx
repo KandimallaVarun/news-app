@@ -21,6 +21,8 @@ export const NewsBoard = ({ category }) => {
         console.error("Error fetching articles:", error);
         setArticles([]);
       });
+
+      console.log(url);
   }, [category]);
   
   return (
