@@ -22,43 +22,76 @@ export const Navbar = ({setCategory}) => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#" onClick={()=>setCategory("general")}>
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="#"
+                onClick={e => { e.preventDefault(); setCategory("general"); }}
+              >
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("business")}>
+              <a
+                className="nav-link"
+                href="#"
+                onClick={e => { e.preventDefault(); setCategory("business"); }}
+              >
                 business
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("entertainment")}>
+              <a
+                className="nav-link"
+                href="#"
+                onClick={e => { e.preventDefault(); setCategory("entertainment"); }}
+              >
                 entertainment
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("general")}>
+              <a
+                className="nav-link"
+                href="#"
+                onClick={e => { e.preventDefault(); setCategory("general"); }}
+              >
                 general
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("health")}>
+              <a
+                className="nav-link"
+                href="#"
+                onClick={e => { e.preventDefault(); setCategory("health"); }}
+              >
                 health
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("science")}>
+              <a
+                className="nav-link"
+                href="#"
+                onClick={e => { e.preventDefault(); setCategory("science"); }}
+              >
                 science
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("sports")}>
+              <a
+                className="nav-link"
+                href="#"
+                onClick={e => { e.preventDefault(); setCategory("sports"); }}
+              >
 
                 sports
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={()=>setCategory("technology")}>
+              <a
+                className="nav-link"
+                href="#"
+                onClick={e => { e.preventDefault(); setCategory("technology"); }}
+              >
                 technology
               </a>
             </li>
