@@ -1,0 +1,251 @@
+const general = [
+    {
+        source: {
+            id: null,
+            name: "Investor's Business Daily"
+        },
+        author: null,
+        title: "Stock Market Today: Dow, Nasdaq Climb As Oil Prices Plummet Amid Ongoing U.S.-Iran Conflict (Live Coverage) - Investor's Business Daily",
+        description: "Stock Market Today: The Dow Jones index reverses higher Tuesday while oil prices crumble. A retailer and a Chinese EV stock rally.",
+        url: "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-iran-oil-prices-tsmc/",
+        urlToImage: "https://www.investors.com/wp-content/uploads/2017/03/stock-wallstreet2-031317-shutter.jpg",
+        publishedAt: "2026-03-10T16:41:28Z",
+        content: "Information in Investors Business Daily is for informational and educational purposes only and should not be construed as an offer, recommendation, solicitation, or rating to buy or sell securities. … [+1064 chars]"
+    },
+    {
+        source: {
+            id: "cnn",
+            name: "CNN"
+        },
+        author: "Sana Noor Haq, Ella Nilsen, Laura Paddison, Catherine Nicholls, Mohammed Tawfeeq, Jennifer Hansler, Maureen Chowdhury, Natasha Bertrand, Annie Grayer, Aileen Graef, Mick Krever, Mustafa Qadri, Christina Macfarlane, Ben Church, Michael Williams, John Towfighi, Zachary Cohen, Paula Hancocks, Issy Ronald, Oren Liebermann, Charlotte Reck, Leila Gharagozlou, Adam Pourahmadi, Chris Isidore, John Liu, Frederik Pleitgen, Isaac Yee, Jessie Yeung, Rhea Mogul, Sophia Saifi, Helen Regan, Gawon Bae, Lucas Lilieholm, Hilary Whiteman, Stephanie Yang, Matt Egan, Piper Hudspeth Blackburn, Betsy Klein",
+        title: "Live updates: US will end war with Iran ‘on our timeline,’ Hegseth says - CNN",
+        description: "The US defense secretary said President Donald Trump “gets to control the throttle” of war as a global oil giant warns of looming catastrophe. Follow for live news updates.",
+        url: "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-10-26",
+        urlToImage: "https://media.cnn.com/api/v1/images/stellar/prod/still-22434044-17310-still.jpg?c=16x9&q=w_800,c_fill",
+        publishedAt: "2026-03-10T16:36:00Z",
+        content: "Planet Labs, a leading commercial provider of real-time satellite imagery, announced on Monday that it would further restrict access to photos of the conflict with Iran.\r\nThe company, which has contr… [+1637 chars]"
+    },
+    {
+        source: {
+            id: "cbs-news",
+            name: "CBS News"
+        },
+        author: "Sarah N. Lynch",
+        title: "DOJ's Ed Martin faces ethics charges from disciplinary office over threatening letter to Georgetown University - CBS News",
+        description: "The office that polices attorney misconduct in Washington, D.C., has filed ethics charges against Justice Department pardon attorney Ed Martin.",
+        url: "https://www.cbsnews.com/news/doj-ed-martin-ethics-charges-disciplinary-office-georgetown-university/",
+        urlToImage: "https://assets1.cbsnewsstatic.com/hub/i/r/2025/03/03/a34a4e35-87b7-4a78-9859-cc345f9e36de/thumbnail/1200x630g2/14a05b4cdcb6a2890875fb2680fbedc0/ap25028111126139.jpg",
+        publishedAt: "2026-03-10T15:10:11Z",
+        content: "The office that polices attorney misconduct in Washington, D.C., has filed ethics charges against Justice Department pardon attorney Ed Martin, after Martin last year sent a threatening letter to the… [+5624 chars]"
+    },
+    {
+        source: {
+            id: "the-washington-post",
+            name: "The Washington Post"
+        },
+        author: "Mariana Alfaro, Adam Taylor, Victoria Craw",
+        title: "Australia grants asylum to 5 Iranian soccer players after Trump pressure - The Washington Post",
+        description: "The late-night visa approval came after a days-long operation, authorities said. The players had been criticized back home after they stood silently during the Iranian anthem.",
+        url: "https://www.washingtonpost.com/politics/2026/03/09/trump-iran-soccer-womens-asylum-australia/",
+        urlToImage: "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CFPO2RRIMDA6IBREWMNUZAW2AA.JPG&w=1440",
+        publishedAt: "2026-03-10T14:38:47Z",
+        content: "Australia granted asylum to five members of the Iranian womens soccer team, after a days-long operation involving federal police and other government agencies and a demand from President Donald Trump… [+30 chars]"
+    },
+    {
+        source: {
+            id: "the-washington-post",
+            name: "The Washington Post"
+        },
+        author: "Hannah Knowles",
+        title: "Iran war’s oil shock fuels GOP political anxiety - The Washington Post",
+        description: "Defense Secretary Pete Hegseth said Tuesday would be “our most intense day of strikes,” after President Trump sent conflicting messages about the administration’s plans.",
+        url: "https://www.washingtonpost.com/politics/2026/03/10/iran-war-gas-prices-gop-anxiety/",
+        urlToImage: "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UCEVO62AGIRMEG5KRBHT7XVKC4_size-normalized.jpg&w=1440",
+        publishedAt: "2026-03-10T13:41:34Z",
+        content: "President Donald Trump was eager to point to gas prices in his State of the Union speech last month as he touted his administrations progress on the economy.\r\nGasoline, which reached a peak of over $… [+234 chars]"
+    },
+    {
+        source: {
+            id: "politico",
+            name: "Politico"
+        },
+        author: "Carmen Paun",
+        title: "FDA backs away from RFK Jr.’s claims about drug’s promise for autism patients - Politico",
+        description: "Food and Drug Administration Commissioner Marty Makary said in September he was changing leucovorin’s label because it could help “hundreds of thousands” of children with the neurological condition.",
+        url: "https://www.politico.com/news/2026/03/10/fda-backs-away-from-rfk-jr-s-claims-about-drugs-promise-for-autism-patients-00820221",
+        urlToImage: "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2F74%2Faa%2Ff8ace132457c9c7dce32bf14375f%2Fwhite-house-21498.jpg",
+        publishedAt: "2026-03-10T13:39:29Z",
+        content: "On Tuesday, the agency approved the drug not for autism but for a form of cerebral folate deficiency that is a hallmark of an ultra-rare disease.\r\nMakary said in a statement that the approval may ben… [+3788 chars]"
+    },
+    {
+        source: {
+            id: "associated-press",
+            name: "Associated Press"
+        },
+        author: "The Associated Press",
+        title: "Photos from Iran, Israel and Lebanon in the 2nd week of the Iran war - AP News",
+        description: "This is a photo gallery curated by AP photo editors.",
+        url: "https://apnews.com/photo-gallery/iran-us-israel-missiles-photos-lebanon-1f6c67920b42650ffb35f22712720a10",
+        urlToImage: "https://dims.apnews.com/dims4/default/734d70e/2147483647/strip/true/crop/8640x5757+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F74%2F40%2F046c634e72c8cba835e925b64573%2Fe7d3d223e5ee4e85862214db03b26d0e",
+        publishedAt: "2026-03-10T13:17:00Z",
+        content: "Motorbikes drive past a billboard depicting Irans late Supreme Leader Ayatollah Ali Khamenei, center, handing the countrys flag to his son and successor Ayatollah Mojtaba Khamenei, right, as the late… [+152 chars]"
+    },
+    {
+        source: {
+            id: "techcrunch",
+            name: "TechCrunch"
+        },
+        author: "Aisha Malik",
+        title: "Google rolls out new Gemini capabilities to Docs, Sheets, Slides, and Drive - TechCrunch",
+        description: "The idea behind the new features is to make the apps more personal and capable to help users get things done faster, right within the platforms themselves.",
+        url: "https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive/",
+        urlToImage: "https://techcrunch.com/wp-content/uploads/2026/02/google-logo.jpg?resize=1200,800",
+        publishedAt: "2026-03-10T13:00:00Z",
+        content: "Google announced on Tuesday that it’s bringing a slew of new Gemini-powered AI capabilities to Docs, Sheets, Slides, and Drive. The new features let users do things like quickly generate fully format… [+4125 chars]"
+    },
+    {
+        source: {
+            id: null,
+            name: "The Seattle Times"
+        },
+        author: "Angela Lim",
+        title: "Seattle Opera, PNB throw pointed, playful jabs at Timothée Chalamet after actor's dismissive comments - The Seattle Times",
+        description: "Seattle Opera and Pacific Northwest Ballet's response to the Oscar-nominated actor's declaration that “no one cares” about ballet and opera brought in ticket sales.",
+        url: "https://www.seattletimes.com/entertainment/timothee-chalamets-comments-spur-response-from-seattle-opera-pnb/",
+        urlToImage: "https://images.seattletimes.com/wp-content/uploads/2026/03/03092026_TZR_Timothee_Chalamet-03022026-AP_tzr_1619.jpg?d=1200x630",
+        publishedAt: "2026-03-10T13:00:00Z",
+        content: "Seattle Opera and Pacific Northwest Ballet threw some pointed, playful jabs at Timothée Chalamet and brought in ticket sales in the process over the weekend, after the Oscar-nominated actor declared … [+2434 chars]"
+    },
+    {
+        source: {
+            id: null,
+            name: "BBC News"
+        },
+        author: "Nicholas Barber",
+        title: "Project Hail Mary review: Ryan Gosling's space epic is 'a mind-stretching sci-fi' ★★★★☆ - BBC",
+        description: "This new space epic starring Gosling as a solo astronaut trying to save humanity is over two-and-a-half hours long – yet manages to be \"zippily entertaining\" throughout.",
+        url: "https://www.bbc.com/culture/article/20260309-project-hail-mary-review",
+        urlToImage: "https://ychef.files.bbci.co.uk/624x351/p0n5krz9.jpg",
+        publishedAt: "2026-03-10T13:00:00Z",
+        content: "Luckily, he's not quite alone. It turns out that another spacecraft is on the same mission from a different planet, and it, too, has just one living occupant, a crab-like alien made of lumps of stone… [+2030 chars]"
+    },
+    {
+        source: {
+            id: null,
+            name: "9to5Mac"
+        },
+        author: "Ben Lovejoy",
+        title: "Apple creates adorable little Finder guy to promote its adorable little Mac - 9to5Mac",
+        description: "Apple is pitching the MacBook Neo at people who’ve never owned a Mac before, and it’s reaching out to them...",
+        url: "https://9to5mac.com/2026/03/10/apple-creates-adorable-little-finder-guy-to-promote-its-adorable-little-mac/",
+        urlToImage: "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/03/Apple-creates-adorable-little-Finder-guy-to-promote-its-adorable-little-Mac.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+        publishedAt: "2026-03-10T12:29:00Z",
+        content: "Apple is pitching the MacBook Neo at people who’ve never owned a Mac before, and it’s reaching out to them in the place it thinks it will find this new generation of potential Mac users: TikTok.\r\nThe… [+1349 chars]"
+    },
+    {
+        source: {
+            id: null,
+            name: "Pff.com"
+        },
+        author: "PFF",
+        title: "2026 NFL Free Agency LIVE Deal Grader: Grading and tracking every signing and trade - PFF",
+        description: "Check frequently for updates as we grade and analyze every transaction of the 2026 NFL free agency period.",
+        url: "https://www.pff.com/news/nfl-2026-nfl-free-agency-live-deal-grader",
+        urlToImage: "https://media.pff.com/2026/01/Lloyd-Devin-Feature-scaled.jpg?w=1200&h=675",
+        publishedAt: "2026-03-10T12:15:00Z",
+        content: "The start of the new NFL season is all but underway, meaning extensions and deals with unrestricted free agents are coming in fast.\r\nPFF will be providing live reactions and analysis for all major tr… [+87988 chars]"
+    },
+    {
+        source: {
+            id: null,
+            name: "Yahoo Entertainment"
+        },
+        author: "Reuters",
+        title: "Human Rights Watch says that Israel has been illegally using white phosphorus in Lebanon - Yahoo",
+        description: "(Corrects spelling of \"phosphorus\" in headline, adds missing word \"of\" in paragraph 8) JERUSALEM, March 10 (Reuters) - The Israeli military illegally used...",
+        url: "https://www.yahoo.com/news/articles/human-rights-watch-says-israel-115043283.html",
+        urlToImage: "https://s.yimg.com/os/en/reuters.com/2689e3e2b455a933c027e1297b526e48",
+        publishedAt: "2026-03-10T12:01:45Z",
+        content: "(Corrects spelling of \"phosphorus\" in headline, adds missing word \"of\" in paragraph 8)\r\nJERUSALEM, March 10 (Reuters) - The Israeli military illegally used white phosphorus munitions over homes in th… [+2337 chars]"
+    },
+    {
+        source: {
+            id: "cnn",
+            name: "CNN"
+        },
+        author: "Elise Hammond",
+        title: "Charles ‘Sonny’ Burton is slated for execution. He hopes the Alabama governor will grant him clemency - CNN",
+        description: "Charles Burton, a 75-year-old who uses a wheelchair, is scheduled to be executed for the murder of Douglas Battle, despite not being the one to pull the trigger. He is hoping Gov. Kay Ivey grants him clemency.",
+        url: "https://www.cnn.com/2026/03/10/us/sonny-burton-execution-alabama-governor",
+        urlToImage: "https://media.cnn.com/api/v1/images/stellar/prod/01-charles-burton.jpg?c=16x9&q=w_800,c_fill",
+        publishedAt: "2026-03-10T11:00:33Z",
+        content: "Charles Burton may just have days left to live. And though he has spent the last three decades on death row, the topics of conversation on a recent phone call are light: he reminisces about growing u… [+11800 chars]"
+    },
+    {
+        source: {
+            id: null,
+            name: "Sports Illustrated"
+        },
+        author: "Kevin Sweeney",
+        title: "Men’s Basketball Bracket Watch: Bubble Teams’ Chances Dwindle - Sports Illustrated",
+        description: "Here’s everything you need to watch as championship week begins in earnest with the power conference tournaments.",
+        url: "https://www.si.com/college-basketball/mens-basketball-bracket-watch-bubble-teams-chances-dwindle",
+        urlToImage: "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_6440,h_3622/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/si/01kkaya731146anng7pf.jpg",
+        publishedAt: "2026-03-10T11:00:00Z",
+        content: "Welcome to championship week! Its perhaps the busiest week of the year in college basketball, an all-out race to lock in spots in the NCAA tournament with Selection Sunday just days away and the proc… [+5822 chars]"
+    },
+    {
+        source: {
+            id: "axios",
+            name: "Axios"
+        },
+        author: "Marc Caputo, Barak Ravid, Colin Demarest",
+        title: "Exclusive: U.S. dismissed Ukraine deal for anti-Iran drone tech last year - Axios",
+        description: "Snubbing Ukraine's offer ranks as one of the U.S.'s biggest tactical miscalculations before the war, officials say.",
+        url: "https://www.axios.com/2026/03/10/us-ukraine-anti-drone-offer",
+        urlToImage: "https://images.axios.com/-qcnSwdQIgl1XPUPh5TJ8Y-DEtE=/0x0:6000x3375/1366x768/2026/03/10/1773105168247.jpg",
+        publishedAt: "2026-03-10T10:40:07Z",
+        content: "<ul><li>Iran's inexpensive Shahed drones have been linked to the deaths of seven U.S. service members, and have cost the U.S. and its friends in the region millions of dollars to intercept.</li><li>\"… [+5279 chars]"
+    },
+    {
+        source: {
+            id: "the-wall-street-journal",
+            name: "The Wall Street Journal"
+        },
+        author: "Peter Landers",
+        title: "China’s Export Machine Keeps Pumping Ahead of Trump Visit - WSJ",
+        description: "After record trade surplus in 2025, new figures suggest tensions will persist",
+        url: "https://www.wsj.com/economy/trade/chinas-exports-surge-in-first-two-months-of-year-96ab6abb",
+        urlToImage: "https://images.wsj.net/im-97809983/social",
+        publishedAt: "2026-03-10T09:58:00Z",
+        content: null
+    },
+    {
+        source: {
+            id: "al-jazeera-english",
+            name: "Al Jazeera English"
+        },
+        author: "John Power",
+        title: "US investigators begin search of Epstein’s former ranch in New Mexico - Al Jazeera",
+        description: "Search comes after the release of investigative files renewed attention to sex offender’s activities at the Zorro Ranch.",
+        url: "https://www.aljazeera.com/economy/2026/3/10/us-investigators-begin-search-of-epsteins-former-ranch-in-new-mexico",
+        urlToImage: "https://www.aljazeera.com/wp-content/uploads/2026/03/AP26048716314224-1773123542.jpg?resize=1920%2C1331",
+        publishedAt: "2026-03-10T09:30:51Z",
+        content: "Investigators in the United States have begun searching the late sex offender Jeffrey Epsteins former ranch in New Mexico, authorities have said.\r\nThe search of Epsteins Zorro Ranch on Monday came af… [+1842 chars]"
+    },
+    {
+        source: {
+            id: "google-news",
+            name: "Google News"
+        },
+        author: "NBC News",
+        title: "Voters head to the polls for a special election in Marjorie Taylor Greene's Georgia district - NBC News",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUGtHWjk5azB3c1RtMFRyQXQ1ZUtPUVF5bzM1YkpTRl9QVTFsSmNOSDV0dHVmZlUzSlZDTTNEbGJ2VEdIc0k4VHNkLXp3d3JSUmZ6SEFrRXpNOENlLXNRMEJfcmhUX1lGNGduWU80ZDdpV1YxNFpUZDFncEpxQmI3YVd3aVc2S3ZTa05PYllsNlkyeHc5Q2x4bFJUb2t0UWxtMmJnbmJQUTl3TEM5SWtqZDFEQ0o?oc=5",
+        urlToImage: null,
+        publishedAt: "2026-03-10T09:00:41Z",
+        content: null
+    }
+];
+
+export default general;
